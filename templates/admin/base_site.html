@@ -1,0 +1,10 @@
+{% extends "admin/base.html" %}
+
+{% block title %}{{ title }} | {{ site_title|default:_('Gestión de comisiones - Pesados El Norte') }}{% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">Gestión de comisiones - Pesados El Norte</a></h1>
+<!-- <h2><a href="aca_va_la_url_de_los_informes">Ver Informes</a></h2> -->
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
